@@ -5,9 +5,9 @@
 #include "time.h"
 #include <M5Core2.h>
 
-const char* ssid     = "JioFiber-p6RKa";
-const char* password = "k2PEDNmyHAYmMGyg";
-String openWeatherMapApiKey = "253126090068251f3ba4898c83f65742";
+const char* ssid     = "WIFI_SSID";
+const char* password = "WIFI_PASSWORD";
+String openWeatherMapApiKey = "OPENWEATHER_API_KEY";
 String city = "Guwahati";
 String country = "IN";
 char cdate[3], cmonth[10], cyear[5], cday[10];
