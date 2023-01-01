@@ -167,7 +167,7 @@ void loop()
     M5.Lcd.print(" deg C");
 
     delay(3000);
-    M5.Lcd.fillScreen(CYAN);
+    M5.Lcd.fillScreen(NAVY);
 
     M5.Lcd.setTextColor(RED); 
     M5.Lcd.setTextSize(5); 
@@ -176,7 +176,7 @@ void loop()
     M5.Lcd.print(word1);
     M5.Lcd.print("\"");
 
-    M5.Lcd.setTextColor(MAROON); 
+    M5.Lcd.setTextColor(WHITE); 
     M5.Lcd.setTextSize(5); 
     M5.Lcd.setCursor(10, 65); 
 //    M5.Lcd.print("\"");
