@@ -9,7 +9,7 @@
 const char* ssid     = "WIFI_SSID";
 const char* password = "WIFI_PASSWORD";
 String openWeatherMapApiKey = "OPENWEATHER_API_KEY";
-String city = "Guwahati";
+String city = "CITY_NAME";
 String country = "IN";
 char cdate[3], cmonth[10], cyear[5], cday[10];
 char thour[3], tmin[3]; 
